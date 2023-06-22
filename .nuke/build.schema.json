@@ -14,10 +14,6 @@
           "type": "string",
           "description": "Path to existing index.json file, typically https://{owner}.github.io/{repo}/index.json"
         },
-        "CurrentPackageName": {
-          "type": "string",
-          "description": "PackageName"
-        },
         "Help": {
           "type": "boolean",
           "description": "Shows the help text for this build assembly"
@@ -46,6 +42,10 @@
         "ListPublishDirectory": {
           "type": "string",
           "description": "Directory to save index into"
+        },
+        "LocalTestPackagesPath": {
+          "type": "string",
+          "description": "Path to Target Package"
         },
         "NoLogo": {
           "type": "boolean",

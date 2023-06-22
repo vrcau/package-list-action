@@ -11,7 +11,6 @@ namespace VRC.PackageManagement.Automation.Multi
         public string url { get; set; }
         public string description { get; set;}
         public InfoLink infoLink { get; set; }
-        public string bannerUrl { get; set; }
         public List<PackageInfo> packages { get; set; }
 		public List<string> githubRepos { get; set; }
     }
